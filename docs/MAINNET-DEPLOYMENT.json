@@ -1,0 +1,16 @@
+{
+  "chainId": 5042,
+  "wallet": "0xb133ee13c9ebebe2905382fc41243a4b908579f0",
+  "transactionHash": "0x7f21e877aa466ff7eab696ab4ec807d089b92c2fac6d1947f70ea73939f6418c",
+  "contractAddress": "0xca986d006b0a07f3f31c6087cb38cdbf3aedfa0d",
+  "blockNumber": 24042481,
+  "status": "success",
+  "gasUsed": "1191810",
+  "effectiveGasPriceGwei": "22.0",
+  "feeUSDC": "0.02621982",
+  "constructorUSDC": "0x3600000000000000000000000000000000000000",
+  "creationCodeHash": "0x58a502db1ccfdae99f257998e634a1495b5f09ae3969fc1344d35d3e5fb4e009",
+  "checkedAt": "2026-10-03T11:27:47.761Z",
+  "explorerTransaction": "https://explorer.arc.io/tx/0x7f21e877aa466ff7eab696ab4ec807d089b92c2fac6d1947f70ea73939f6418c",
+  "explorerContract": "https://explorer.arc.io/address/0xca986d006b0a07f3f31c6087cb38cdbf3aedfa0d"
+}

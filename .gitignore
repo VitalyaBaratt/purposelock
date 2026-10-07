@@ -1,0 +1,26 @@
+node_modules/
+dist/
+artifacts/
+src/generated/
+.env*
+!.env.example
+.vercel/
+test-results/
+playwright-report/
+.DS_Store
+
+# Local tooling, logs and credentials
+*.log
+coverage/
+cache/
+.tmp/
+release/
+*.pem
+*.key
+*.keystore
+*.p12
+*.pfx
+*.tar.gz
+*.zip
+
+release-mainnet/

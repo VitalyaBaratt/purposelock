@@ -1,0 +1,40 @@
+{
+  "name": "purposelock",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "dev": "npm run compile && vite --host 127.0.0.1",
+    "build": "npm run compile && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "npm run compile && node --test test/*.test.mjs",
+    "demo": "npm run compile && node scripts/demo.mjs",
+    "check:arc": "node scripts/check-arc.mjs",
+    "test:ui": "playwright test",
+    "demo:web": "npm run compile && node scripts/ui-server.mjs",
+    "build:production": "npm run compile && node scripts/build-mainnet.mjs",
+    "check:release": "node scripts/release-check.mjs",
+    "preflight:deployment": "npm run compile && node scripts/deployment-preflight.mjs",
+    "deploy:wallet": "npm run compile && node scripts/build-walletconnect.mjs && node scripts/deploy-wallet.mjs",
+    "check:secrets": "node scripts/check-secrets.mjs"
+  },
+  "dependencies": {
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "@playwright/test": "1.63.0",
+    "@walletconnect/sign-client": "2.25.0",
+    "hardhat": "3.18.0",
+    "qrcode": "1.5.4",
+    "solc": "0.8.37",
+    "vite": "7.3.6"
+  },
+  "overrides": {
+    "tmp": "0.2.7"
+  }
+}

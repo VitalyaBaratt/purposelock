@@ -1,0 +1,12 @@
+.git
+.env*
+!.env.example
+node_modules
+.tmp
+dist
+artifacts
+src/generated
+test-results
+playwright-report
+release
+release-mainnet
