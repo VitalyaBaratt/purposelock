@@ -1,5 +1,7 @@
 # PurposeLock
 
+[Live site](https://purposelock.vercel.app) · [Public repository](https://github.com/VitalyaBaratt/purposelock)
+
 MVP цільових зборів у USDC для Arc Microgrants. Solidity escrow + English-first web UI з EN/UA (Vite / ethers), із вузьким read-only RPC backend, без бази даних або зберігання wallet secrets.
 
 **Стан:** контракт розгорнуто в Arc Mainnet: `0xca986d006b0a07f3f31c6087cb38cdbf3aedfa0d`. Production frontend підключено до нього через приватний серверний RPC. Публічна версія — connection-only: Mainnet-транзакції тимчасово заблоковані до окремо погодженого live-тесту; live lifecycle test і source verification очікують завершення. Незалежного аудиту немає.

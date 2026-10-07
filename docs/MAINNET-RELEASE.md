@@ -4,7 +4,7 @@ Production build: npm run build:production. It pins Arc 5042, the deployed Purpo
 
 ## Vercel / GitHub
 
-Publish only the clean release-mainnet/ export, generated with npm run check:release -- --export, then npm run check:secrets. Do not upload the parent ChatGPT workspace or old release/ exports. No Git repository/history was created or published by this preparation.
+Publish only the clean release-mainnet/ export, generated with npm run check:release -- --export, then npm run check:secrets. Do not upload the parent ChatGPT workspace or old release/ exports. Public repository: https://github.com/VitalyaBaratt/purposelock. Production site: https://purposelock.vercel.app. Published 2026-10-07 via GitHub API and Vercel CLI. The Vercel Git connection still requires repository-access authorization; automatic Git deployments are not configured. GitHub test workflow is manual-only.
 
 Vercel: Vite, Node 22.x, build npm run build:production, output dist. Add ARC_MAINNET_RPC_URL as a sensitive server-only environment variable for the intended environments, using the private QuickNode HTTPS URL. Do not add any VITE-prefixed private RPC or WalletConnect variables. api/rpc.js is the Node function; server/rpc.mjs only allows bounded read requests to the deployed contracts. No wallet keys are needed by the server. Set provider quota alerts and Vercel rate limiting for /api/rpc before public promotion: origin checks do not authenticate requests or prevent quota abuse.
 

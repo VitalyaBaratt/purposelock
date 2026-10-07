@@ -1,6 +1,6 @@
 # Deployment record
 
-Arc Mainnet deployment succeeded. GitHub and Vercel publication and live lifecycle tests are pending.
+Arc Mainnet deployment succeeded. GitHub and Vercel production publication completed on 2026-10-07. Live lifecycle tests remain pending.
 
 - Chain: 5042
 - Contract: [0xca986d006b0a07f3f31c6087cb38cdbf3aedfa0d](https://explorer.arc.io/address/0xca986d006b0a07f3f31c6087cb38cdbf3aedfa0d)
@@ -17,6 +17,6 @@ Arc Explorer supports Standard JSON verification, but its compiler selector curr
 
 ## Remaining evidence
 
-Public repository, Vercel URL, funded/failed campaign IDs and lifecycle transaction receipts: pending. Local mock test results are not evidence of an Arc lifecycle test.
+Public repository: https://github.com/VitalyaBaratt/purposelock. Production site: https://purposelock.vercel.app. Funded/failed campaign IDs and lifecycle receipts remain pending. Local mock test results are not evidence of an Arc lifecycle test.
 
 See MAINNET-RELEASE.md for publication configuration and the proposed live test budget.
